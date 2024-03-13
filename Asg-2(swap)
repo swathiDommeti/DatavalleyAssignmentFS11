@@ -1,0 +1,11 @@
+public class SwapWithoutTemp {
+    public static void main(String[] args) {
+        int x = 200, y = 300;
+        System.out.println("Before swapping: x = " + x + ", y = " + y);
+        swapWithoutTemp(x, y);
+    }
+
+    public static void swapWithoutTemp(int x, int y) {
+        System.out.println("After swapping: x = " + y + ", y = " + x);
+    }
+}
